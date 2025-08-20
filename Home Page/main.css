@@ -9,6 +9,8 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 5px;
     margin: 10px 90px;
+    align-items: center;
+
 }
 
 .img {
@@ -22,8 +24,40 @@ nav {
 
 .menu {
     display: flex;
+    margin-left: 70px;
+    p {
+        margin: 0 15px 0;
+    }
+}
+
+.menu p:hover {
+    color: #F26B58;
+}
+
+.sdt{
+    display: flex;
+    margin-left: 100px;
+    .phone {
+        margin-top: 10px;
+        margin-right: 5px;
+        color: #F26B58;
+        font-size: 20px;
+    }
+
+    .phone2 {
+        font-size: 12px;
+    }
 }
 
 .contact {
     display: flex;
+    margin-left: 15px;
+    p {
+        margin: 0 15px 0;
+    }
+
+    #shopping {
+        color: #F26B58;
+        margin-right: 5px;
+    }
 }
