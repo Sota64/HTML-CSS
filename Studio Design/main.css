@@ -493,3 +493,78 @@
     }
 }
 
+.newsletter{
+    padding: 94px 120px;
+}
+
+.newsletter-frame{
+    .rectangle1{
+        width: 1197px;
+        height: 292px;
+        border-radius: 75px;
+        background-color: #F4F9FF;
+        position: relative;
+    }
+
+    .rectangle2{
+        width: 543px;
+        height: 292px;
+        background-color: #2639ED;
+        border-top-left-radius: 150px;
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 75px;
+        position: absolute;
+        right: 0;
+    }
+}
+
+.newsletter-left{
+    position: absolute;
+    top: 98px;
+    left: 92px;
+    h2{
+        font-size: 40px;
+        line-height: 1.6;
+    }
+}
+
+.newsletter-right{
+    position: absolute;
+    top: 106px;
+    right: 98px;
+    .rectangle3{
+        display: flex;
+        width: 479px;
+        height: 80px;
+        border-radius: 60px;
+        background-color: #F1F1F1;
+
+        p{
+            margin: 30px 34px;
+        }
+
+        button{
+            width: 188px;
+            height: 60px;
+            border-radius: 60px;
+            background-color: #2639ED;
+            color: #fff;
+            border: none;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+    }
+}
+
+.rectangle1 .square{
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    border-bottom-left-radius: 100px;
+    background-color: #FFF5DB;
+    z-index: -1;
+    bottom: -39px;
+    left: -39px;
+}
+
