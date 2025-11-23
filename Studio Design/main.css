@@ -568,3 +568,41 @@
     left: -39px;
 }
 
+.footer{
+    display: flex;
+    padding: 94px 120px;
+    justify-content: space-between;
+}
+
+.footer .about{
+    span{
+        width: 106px;
+        height: 30px;
+        font-size: 24px;
+    }
+
+    p{
+        width: 270px;
+        height: 88px;
+    }
+
+    .about-logo{
+        margin-top: 80px;
+        img{
+            width: 36px;
+            height: 36px;
+            margin-right: 16px;
+        }
+    }
+}
+
+.footer .we-do{
+    span{
+        font-size: 20px;
+    }
+}
+
+.content-footer{
+    margin-top: 26px;
+    line-height: 2;
+}
